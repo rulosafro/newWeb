@@ -27,8 +27,9 @@ export default function ScrollExperience () {
           </div>
           <div style={{ position: 'relative', maxWidth: '500px', maxHeight: '600px  ' }}>
             <Image
+              placeholder='blur'
               loading='lazy'
-              alt='Mountains'
+              alt='Foto de taller en consultoría'
               src='/webp/img1.webp'
               quality='100'
               fill
@@ -45,8 +46,9 @@ export default function ScrollExperience () {
         <div className='grid grid-cols-1 md:grid-cols-2'>
           <div style={{ position: 'relative', maxWidth: '500px', maxHeight: '600px  ' }} className='me-5'>
             <Image
+              placeholder='blur'
               loading='lazy'
-              alt='Mountains'
+              alt='Foto del ecommerce de DICH'
               src='/webp/portfolio-1b.webp'
               fill
               sizes='100vw'
@@ -88,8 +90,9 @@ export default function ScrollExperience () {
           </div>
           <div style={{ position: 'relative', maxWidth: '500px', maxHeight: '600px  ' }}>
             <Image
+              placeholder='blur'
               loading='lazy'
-              alt='Mountains'
+              alt='Foto de Kit Polimorfes'
               src='/webp/portfolio-2a.webp'
               fill
               quality='100'
@@ -106,8 +109,9 @@ export default function ScrollExperience () {
         <div className='grid grid-cols-1 md:grid-cols-2'>
           <div style={{ position: 'relative', maxWidth: '500px', maxHeight: '600px  ' }} className='me-5'>
             <Image
+              placeholder='blur'
               loading='lazy'
-              alt='Mountains'
+              alt='Foto taller de fanzine en Valdivia'
               src='/webp/portfolio-3b.webp'
               fill
               sizes='100vw'
@@ -150,8 +154,9 @@ export default function ScrollExperience () {
           </div>
           <div style={{ position: 'relative', maxWidth: '500px', maxHeight: '600px  ' }}>
             <Image
+              placeholder='blur'
               loading='lazy'
-              alt='Mountains'
+              alt='Foto de prueba de simulador de toracotomia'
               src='/webp/portfolio-17.webp'
               fill
               quality='100'

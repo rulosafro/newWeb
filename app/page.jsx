@@ -7,12 +7,12 @@ import ScrollHero from '@/components/scrollItems/ScrollHero'
 import ScrollCarrer from '@/components/scrollItems/ScrollCarrer'
 import ScrollSkills from '@/components/scrollItems/ScrollSkills'
 import ScrollWork from '@/components/scrollItems/ScrollWork'
-import ScrollBrand from '@/components/scrollItems/ScrollBrand'
-import ScrollBlog from '@/components/scrollItems/ScrollBlog'
 import ScrollContact from '@/components/scrollItems/ScrollContact'
 import ScrollEnd from '@/components/scrollItems/ScrollEnd'
-import ScrollNewSkills from '@/components/scrollItems/ScrollNewSkills'
 import ScrollExperience from '@/components/scrollItems/ScrollExperience'
+import ScrollBrand from '@/components/scrollItems/ScrollBrand'
+import ScrollBlog from '@/components/scrollItems/ScrollBlog'
+import ScrollNewSkills from '@/components/scrollItems/ScrollNewSkills'
 
 export default function Home () {
   return (

@@ -65,10 +65,11 @@ export default function ScrollHero () {
 
       <Image
         src='/../public/img/Artboard1.png'
+        placeholder='blur'
         alt='Foto de Rama'
-        quality={100}
         width={500}
         height={500}
+        quality='100'
       />
     </hero>
   )
