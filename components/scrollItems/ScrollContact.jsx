@@ -33,7 +33,7 @@ export default function ScrollContact () {
           <input type='password' id='password' className='border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400text-white focus:ring-blue-500focus:border-blue-500' placeholder='Hola Rama...' required />
         </div>
 
-        <button class='flex justify-end bg-yellow-700  text-white font-bold py-2 px-4 rounded opacity-50 cursor-not-allowed'>
+        <button className='flex justify-end bg-yellow-700  text-white font-bold py-2 px-4 rounded opacity-50 cursor-not-allowed'>
           Enviar
         </button>
       </form>

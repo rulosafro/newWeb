@@ -25,19 +25,15 @@ export default function ScrollExperience () {
             </ul>
             <a className='ms-5 hover:text-primary' href='https://www.brinca.com/' target='_blank'>Visita Brinca</a>
           </div>
-          <div style={{ position: 'relative', maxWidth: '500px', maxHeight: '600px  ' }}>
+          <div style={{ position: 'relative', maxWidth: '500px', maxHeight: '600px' }}>
             <Image
-              loading='lazy'
               alt='Foto de taller en consultoría'
               src='/webp/img1.webp'
               quality='100'
               fill
               sizes='100vw'
               objectPosition='bottom 70%'
-              style={{
-                objectFit: 'cover'
-              }}
-              className='rounded-xl'
+              className='rounded-xl object-cover'
             />
           </div>
         </div>
@@ -45,16 +41,11 @@ export default function ScrollExperience () {
         <div className='grid grid-cols-1 md:grid-cols-2'>
           <div style={{ position: 'relative', maxWidth: '500px', maxHeight: '600px  ' }} className='me-5'>
             <Image
-              loading='lazy'
               alt='Foto del ecommerce de DICH'
               src='/webp/portfolio-1b.webp'
               fill
               sizes='100vw'
-              objectPosition='left center'
-              style={{
-                objectFit: 'cover'
-              }}
-              className='rounded-xl'
+              className='rounded-xl object-cover object-left'
             />
           </div>
           <div>
@@ -88,17 +79,11 @@ export default function ScrollExperience () {
           </div>
           <div style={{ position: 'relative', maxWidth: '500px', maxHeight: '600px  ' }}>
             <Image
-              loading='lazy'
               alt='Foto de Kit Polimorfes'
-              src='/webp/portfolio-2a.webp'
+              src='/webp/figura3D.webp'
               fill
-              quality='100'
-              sizes='100vw'
-              objectPosition='bottom 70%'
-              style={{
-                objectFit: 'cover'
-              }}
-              className='rounded-xl'
+              quality='75'
+              className='rounded-xl object-cover object-rigth'
             />
           </div>
         </div>
@@ -106,17 +91,12 @@ export default function ScrollExperience () {
         <div className='grid grid-cols-1 md:grid-cols-2'>
           <div style={{ position: 'relative', maxWidth: '500px', maxHeight: '600px  ' }} className='me-5'>
             <Image
-              loading='lazy'
               alt='Foto taller de fanzine en Valdivia'
               src='/webp/portfolio-3b.webp'
               fill
               sizes='100vw'
               quality='100'
-              objectPosition='bottom 70%'
-              style={{
-                objectFit: 'cover'
-              }}
-              className='rounded-xl'
+              className='rounded-xl object-cover object-bottom'
             />
           </div>
           <div>
@@ -150,17 +130,12 @@ export default function ScrollExperience () {
           </div>
           <div style={{ position: 'relative', maxWidth: '500px', maxHeight: '600px  ' }}>
             <Image
-              loading='lazy'
               alt='Foto de prueba de simulador de toracotomia'
               src='/webp/portfolio-17.webp'
               fill
               quality='100'
               sizes='100vw'
-              objectPosition='bottom 70%'
-              style={{
-                objectFit: 'cover'
-              }}
-              className='rounded-xl'
+              className='rounded-xl object-cover object-bottom'
             />
           </div>
         </div>
