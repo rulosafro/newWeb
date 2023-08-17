@@ -32,8 +32,7 @@ export default function ScrollExperience () {
               quality='100'
               fill
               sizes='100vw'
-              objectPosition='bottom 70%'
-              className='rounded-xl object-cover'
+              className='rounded-xl object-cover object-bottom'
             />
           </div>
         </div>

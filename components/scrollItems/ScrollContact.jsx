@@ -21,15 +21,15 @@ export default function ScrollContact () {
 
       <form className=''>
         <div className='mb-6'>
-          <label for='email' className='block mb-2 text-sm font-medium text-gray-90'>Tu email</label>
+          <label htmlFor='email' className='block mb-2 text-sm font-medium text-gray-90'>Tu email</label>
           <input type='email' id='email' className=' border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400text-white focus:ring-blue-500focus:border-blue-500' placeholder='yo@mail.com' required />
         </div>
         <div className='mb-6'>
-          <label for='email' className='block mb-2 text-sm font-medium text-gray-90'>Asunto</label>
+          <label htmlFor='email' className='block mb-2 text-sm font-medium text-gray-90'>Asunto</label>
           <input type='text' id='subject' className='border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400text-white focus:ring-blue-500focus:border-blue-500' placeholder='Lo que quieres hablar' required />
         </div>
         <div className='mb-6'>
-          <label for='password' className='block mb-2 text-sm font-medium text-gray-300 '>Tu mensaje</label>
+          <label htmlFor='password' className='block mb-2 text-sm font-medium text-gray-300 '>Tu mensaje</label>
           <input type='password' id='password' className='border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400text-white focus:ring-blue-500focus:border-blue-500' placeholder='Hola Rama...' required />
         </div>
 
