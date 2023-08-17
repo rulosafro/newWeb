@@ -64,7 +64,7 @@ export default function ScrollHero () {
       </div>
 
       <Image
-        src='/../public/img/Artboard1.png'
+        src='/img/artboard1.png'
         placeholder='blur'
         alt='Foto de Rama'
         width={500}
