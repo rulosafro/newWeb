@@ -68,9 +68,7 @@ export default function ScrollHero () {
         quality='100'
         width={500}
         height={500}
-        style={{
-          objectFit: 'cover'
-        }}
+
       />
 
       {/* <Image
