@@ -31,8 +31,8 @@ export default function ScrollCarrer () {
           <p>2023 - 6 months</p>
         </a>
       </article>
-      <h3 className='-rotate-90 -translate-x-12 hidden lg:block text-primary'>Courses</h3>
-      <ul className='-m-10 -translate-x-12 hidden lg:block'>
+      <h3 className='-rotate-90 -translate-x-12 hidden xl:block text-primary'>Courses</h3>
+      <ul className='-m-10 -translate-x-12 hidden xl:block'>
         <h5 className='font-semibold'>Diseño</h5>
         <li>• Bootcamp Diseño UX/UI - Evolvo (Udemy)</li>
         <li>• Diseño UX & Figma 2023 - Javier Cañas (Udemy)</li>
