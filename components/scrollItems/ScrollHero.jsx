@@ -68,7 +68,6 @@ export default function ScrollHero () {
         quality='75'
         width={500}
         height={500}
-
       />
 
       {/* <Image
