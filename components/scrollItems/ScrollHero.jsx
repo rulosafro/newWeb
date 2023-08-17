@@ -65,7 +65,7 @@ export default function ScrollHero () {
       <Image
         alt='Foto personal'
         src='/img/artboard1.png'
-        quality='100'
+        quality='75'
         width={500}
         height={500}
 
