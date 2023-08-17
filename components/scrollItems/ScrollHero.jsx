@@ -62,23 +62,17 @@ export default function ScrollHero () {
           </div>
         </div>
       </div>
-      <img src='/img/artboard1.png' alt='Foto personal' className='max-w-[500px] max-h-[500px]' />
 
-      {/* <Image
+      {/* <img src='/img/bannerWeb.png' alt='Foto personal' className='max-w-[500px] max-h-[500px]' /> */}
+
+      <Image
         alt='Foto personal'
-        src='/img/artboard1.png'
+        src='/img/bannerWeb.png'
         quality='75'
         width={500}
         height={500}
-      /> */}
+      />
 
-      {/* <Image
-          src='/img/artboard1.png'
-          alt='Foto de Rama'
-          width={500}
-          height={500}
-          quality='100'
-        /> */}
     </hero>
   )
 }
