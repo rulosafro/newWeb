@@ -62,14 +62,24 @@ export default function ScrollHero () {
           </div>
         </div>
       </div>
-
       <Image
+        alt='Foto personal'
         src='/img/artboard1.png'
-        alt='Foto de Rama'
+        quality='100'
         width={500}
         height={500}
-        quality='100'
+        style={{
+          objectFit: 'cover'
+        }}
       />
+
+      {/* <Image
+          src='/img/artboard1.png'
+          alt='Foto de Rama'
+          width={500}
+          height={500}
+          quality='100'
+        /> */}
     </hero>
   )
 }
